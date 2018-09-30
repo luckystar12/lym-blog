@@ -1,0 +1,10 @@
+body {
+  background-color: red;
+}
+
+.pure-button {
+  -o-border-radius: 1em;
+  border-radius: 1em;
+  border: 1px solid skyblue;
+  background-color: skyblue;
+}

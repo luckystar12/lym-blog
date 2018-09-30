@@ -1,0 +1,19 @@
+{
+  "presets": [
+    [
+      "env", {
+        "useBuiltIns": "usage",
+        "targets": {
+          "browsers": ["ie >= 9"]
+        }
+      }
+    ],
+    "react",
+    "stage-0"
+  ],
+  "plugins": [
+    "transform-decorators-legacy",
+    "syntax-dynamic-import",
+    ["import", { "libraryName": "antd", "style": "css" }]
+  ]
+}

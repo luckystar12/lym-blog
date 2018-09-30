@@ -1,0 +1,63 @@
+$theme-color-1: #339999;
+$theme-color-2: #99CCFF;
+$theme-color-3: #66CCCC;
+$theme-color-4: #fff;
+
+// .home-container {
+//   width: 1024px;
+//   margin: 0;
+// }
+
+.home-middle-container {
+  position: relative;
+  width: 1024px;
+  margin: 0 auto;
+}
+
+/* start 首页头部 */
+.home-header {
+  width: 100%;
+  height: 50px;
+  background-color: $theme-color-1;
+  color: $theme-color-3;
+}
+
+.user-profile {
+  float: right;
+  line-height: 50px;
+  margin-right: 100px;
+}
+/* end 首页头部 */
+
+/* start 首页介绍 */
+.home-introduction {
+  margin: 50px auto 80px;
+  padding: 0 10px 30px;
+  border-bottom: 2px solid $theme-color-1;
+  font-size: 24px;
+
+  &-content {
+
+  }
+}
+/* end 首页介绍 */
+
+/* start 首页内容 */
+.home-content {
+
+  &-item {
+    height: 150px;
+    font-size: 36px;
+    line-height: 150px;
+    text-align: center;
+    border: 1px solid $theme-color-3;
+    border-radius: 2px;
+
+    &-1 {
+      border: none;
+      color: #fff;
+      background-color: $theme-color-3;
+    }
+  }
+}
+/* end 首页内容 */
