@@ -25,6 +25,7 @@ module.exports = {
     port: process.env.PORT, // Defaults to 8080
     open: true, // Open the page in browser
     overlay: true, // WDS provides an overlay for capturing compilation related warnings and errors:
+    historyApiFallback: true,
   },
   plugins: [
     new HtmlWebpackPlugin({

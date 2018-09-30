@@ -53,6 +53,11 @@ $theme-color-4: #fff;
     border: 1px solid $theme-color-3;
     border-radius: 2px;
 
+    a,
+    a:hover {
+      color: #fff;
+    }
+
     &-1 {
       border: none;
       color: #fff;
