@@ -3,6 +3,7 @@ import {Route, Switch} from 'react-router-dom'
 import Home from '../Home'
 import Blog from '../Blog'
 import User from '../User'
+import Login from '../Login'
 
 // import AsyncPageWrapper from '../../components/common/AsyncPageWrapper'
 
@@ -21,6 +22,7 @@ export default class App extends React.Component {
           <Route exact path='/' component={ Home }/>
           <Route path='/blog' component={ Blog }/>
           <Route path='/user' component={ User }/>
+          <Route path='/login'  component={ Login }/>
           {/* when none of the above match, <NoMatch> will be rendered */}
           {/* <Route component={ NoMatch }/> */}
         </Switch>
